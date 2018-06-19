@@ -1,0 +1,11 @@
+{
+  "name": "Lightning Component Library Search",
+  "description" : "To use, type 'ltng' plus the name or keyword of a Lightning Component",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword" : "ltng" },
+  "manifest_version": 2
+}
