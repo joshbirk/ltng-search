@@ -17,4 +17,4 @@ To use it, type "ltng" in the omnibox/url bar and hit tab or space.  Then type t
 * ltng force:hasRecordId
 * ltng aura:systemError
 
-And it will pull up the URL of that component/interface/event in the library.  Currently there is no error handling if you try a name that does not exist, looking into solutions there.
+The extension will now offer suggestions based on the namespace or component/interface/event name.
