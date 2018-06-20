@@ -1,8 +1,8 @@
 # ltng-search
 
-This is a Chrome extension for searching the [Lightning Component Library](https://developer.salesforce.com/docs/component-library/overview/components) via Chrome.
+This is a Chrome extension for searching the [Lightning Component Library](https://developer.salesforce.com/docs/component-library/overview/components) via Chrome.  You can install it via the [Chrome Web Store](https://chrome.google.com/webstore/detail/lightning-component-libra/ajdlkpnipkkkdlfbdnkciipkfcommpkk?authuser=1).
 
-Until I get it on the Web Store, install it by:
+Or install it manually by:
 
 1. Going to Setup -> More Tools -> Extensions in Chrome
 2. Check "Developer Mode" to on
