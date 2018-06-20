@@ -11,8 +11,10 @@ Until I get it on the Web Store, install it by:
 5. Select the folder of the repo
 6. Enjoy
 
-To use it, type "ltng" in the omnibox/url bar and hit tab.  Then type the full name of the component/interface/event you want to search.  A la:
+To use it, type "ltng" in the omnibox/url bar and hit tab or space.  Then type the full name of the component/interface/event you want to search.  A la:
 
-* ltng (tab) lightning:recordForm
-* ltng (tab) force:hasRecordId
-* ltng (tab) aura:systemError
+* ltng lightning:recordForm
+* ltng force:hasRecordId
+* ltng aura:systemError
+
+And it will pull up the URL of that component/interface/event in the library.  
