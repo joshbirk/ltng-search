@@ -34,17 +34,12 @@ console.log(all_arrays);
 
 chrome.omnibox.onInputChanged.addListener(
   function(text, suggest) {
+    if (text.length===0) return;
     var suggestions = new Array();
     for(var i = 0; i < all_arrays.length; i++) {
-      if(all_arrays[i].startsWith(text)) {
+      if(all_arrays[i].toLowerCase().indexOf(text.toLowerCase())>-1) {
         console.log(all_arrays[i]);
         suggestions.push({content: all_arrays[i], description:all_arrays[i]});
-      }
-      if(all_arrays[i].split(":").length > 1) {
-        if(all_arrays[i].split(":")[1].startsWith(text)) {
-        console.log(all_arrays[i]);
-        suggestions.push({content: all_arrays[i],description:all_arrays[i]});
-        }  
       }
     }
 
