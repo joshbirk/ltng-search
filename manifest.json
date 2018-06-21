@@ -1,7 +1,7 @@
 {
   "name": "Lightning Component Library Search",
   "description" : "To use, type 'ltng' plus the name or keyword of a Lightning Component",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
